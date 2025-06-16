@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+*---RESET-----*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---HEADER----*/
+.header-container{
+    background-color:rgba(219, 217, 215, 0.5);
+    display: flex;
+    justify-content: center;
+     width: 100%;
+    color: black;
+}
+
+header{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+  justify-content: space-around;
+      
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img{
+ width: 500px;
+
+}
+
+.search-bar{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.search-bar input{
+    border-radius: 30px;
+    padding: 16px ;
+    width: 600px;
+    font-size: large;
+    
+}
+
+.header-actions{
+    display: flex;
+    gap: 15px;
+    font-size: 40px;
+    padding: 0 100px ;
+}
+
+.footer-container{
+    background-color:#f7f7f7ff;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+footer{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+  justify-content: space-around;
+      
+}
+
+.footer-actions{
+    display: flex;
+    gap: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 100px ;
+}
+
+footer .logo > img{
+ width: 300px;
+}
