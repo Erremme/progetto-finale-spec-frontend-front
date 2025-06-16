@@ -55,7 +55,7 @@ export default function Carosell(){
                         )
                     })}
                 </h1>
-                <button>{slides[currentSlide].button}</button>
+                <button className="btn-slide">{slides[currentSlide].button}</button>
                 </div>
            </div> 
             <button onClick={prevSlide}  className="carosell-arrow carosell-arrow-left">&lt;</button>
