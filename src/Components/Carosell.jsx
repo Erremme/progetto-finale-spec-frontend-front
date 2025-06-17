@@ -30,7 +30,7 @@ const slides = [
 
 export default function Carosell(){
     const [currentSlide , setCurrentSlide] = useState(0)
-    const [currentBanner , setCurrentBanner] = useState(0)
+
     const prevSlide= (() =>
          setCurrentSlide((prev) =>  prev === 0 ? slides.length - 1 : prev -1) )
 

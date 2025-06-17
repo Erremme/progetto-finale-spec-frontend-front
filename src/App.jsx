@@ -1,9 +1,9 @@
 import { BrowserRouter , Route , Routes } from "react-router-dom";
 
 //Components
-import EbikesList from "./pages/EbikesLists";
 import EbikeDetails from "./pages/EbikeDetails";
 import DefaultLayout from "./Layouts/DefaultLayout";
+import HomePage from "./pages/HomePage";
 
 export default function App(){
   return(
@@ -13,9 +13,8 @@ export default function App(){
 
             <Route element={<DefaultLayout />}>
 
-                <Route path="/" element ={<EbikesList/>} />
-       
-                <Route path="/:id" element={<EbikeDetails/>} />
+                <Route path="/" element ={<HomePage /> } />
+                <Route path="/ebikes/:id" element={<EbikeDetails/>} />
 
             </Route>
         </Routes>
