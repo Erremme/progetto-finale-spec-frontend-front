@@ -15,8 +15,6 @@ function useEbike() {
         }  
 
         setCompareList((prev) => [...prev, bike]);
-        console.log("Aggiunta alla lista di confronto:", bike);
-        console.log("Lista di confronto aggiornata:", [...compareList, bike]);
 
     }
 
@@ -28,8 +26,12 @@ function useEbike() {
         if (wishList.some(item => item.id === bike.id)) {
             return;
         }
+        else{
+            
+        }
         setWishList((prev) => [...prev, bike]);
         console.log("Aggiunta alla lista dei desideri:", bike);
+        console.log("Lista dei desideri aggiornata:", [...wishList]);
     }
 
     function removeFromWishList(bike) {

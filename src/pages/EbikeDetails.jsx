@@ -6,7 +6,7 @@ export default function EbikeDetails() {
   const { id } = useParams();
   const [bikeDetails, setBikeDetails] = useState([]);
 
-  const { addToCompare, compareList } = useGlobalContext();
+  const { addToCompare, addToWishList  } = useGlobalContext();
 
   // Qui puoi fare una fetch per i dettagli della bici usando l'id
     useEffect(() => {
@@ -18,11 +18,12 @@ export default function EbikeDetails() {
 
     , [id]);
   
-    console.log(bikeDetails);
+   
 
   
   return (
     <div>
+        <button onClick={() => addToWishList(bikeDetails)}>Aggiungi ai preferiti</button>
     <div  className="ebike-details-container">
        <div className="ebike-header">
         <h1>{bikeDetails?.title?.toUpperCase()}</h1>

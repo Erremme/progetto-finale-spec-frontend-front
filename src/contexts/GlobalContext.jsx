@@ -1,4 +1,4 @@
-import { createContext, use } from "react";
+import { createContext } from "react";
 import { useContext } from "react";
 import useEbike from "../CustomHooks/useEbike";
 

@@ -5,6 +5,7 @@ import EbikeDetails from "./pages/EbikeDetails";
 import DefaultLayout from "./Layouts/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import CompareList from "./pages/CompareList";
+import Wishlist from "./pages/Wishlist";
 
 import { GlobalContextProvider } from "./contexts/GlobalContext";
 
@@ -21,6 +22,7 @@ export default function App(){
                 <Route path="/" element ={<HomePage /> } />
                 <Route path="/ebikes/:id" element={<EbikeDetails/>} />
                 <Route path="/compare" element={<CompareList />} />
+                <Route path = "/wishlist" element={<Wishlist />}  />
 
             </Route>
         </Routes>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header(){
     return(
         <div className="header-container">
@@ -6,15 +8,13 @@ export default function Header(){
                 <div className="logo">
                     <img src="img/BoolBike.svg" alt="logo" />
                 </div>
-                <div className="search-bar">
-                    <input 
-                    type="text" 
-                    placeholder="Cerca un articolo.."
-                    />
-                </div>
+                
                 <div className="header-actions">
-                    <div className="whishList">
-                       <i className="fa-solid fa-heart"></i>  
+                    <div className="wishList">
+                        <Link to="/wishlist"> 
+                             <i className="fa-solid fa-heart"></i>  
+                        </Link>
+                       
                     </div>
                     <div className="account">
                          <i className="fa-solid fa-user"></i>   
