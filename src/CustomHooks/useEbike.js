@@ -1,15 +1,23 @@
 import { useEffect, useState } from "react";
 
 function useEbike() {
+      
+    const getInitialValue = () =>{
+        const saved = localStorage.getItem("wishList") || [];
+        return saved ? JSON.parse(saved) : [];
+    }
+    
      const [compareList, setCompareList] = useState([]);
-     const [wishList, setWishList] = useState([]);
+     const [wishList, setWishList] = useState(getInitialValue);
+
+      useEffect(() => {
+    localStorage.setItem("wishList", JSON.stringify(wishList));
+  }, [wishList]);
      
       function addToCompare(bike){
-        if(compareList.length >=2) {
-            return
-        }
+        
 
-         else if (compareList.some(item => item.id === bike.id)) {
+         if (compareList.some(item => item.id === bike.id)) {
             return
             
         }  
@@ -29,9 +37,10 @@ function useEbike() {
         else{
             
         }
-        setWishList((prev) => [...prev, bike]);
-        console.log("Aggiunta alla lista dei desideri:", bike);
-        console.log("Lista dei desideri aggiornata:", [...wishList]);
+        setWishList((prev) => 
+            [...prev, bike] );
+        
+       
     }
 
     function removeFromWishList(bike) {

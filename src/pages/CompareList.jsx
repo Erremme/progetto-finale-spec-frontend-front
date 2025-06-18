@@ -16,7 +16,7 @@ export default function CompareList() {
           {compareList.map((bike) => (
             <li key={bike.id} className="compare-item">
               <img src={bike.image} alt={bike.title} />
-              <h2>{bike.title}</h2>
+              <h2>{bike.title.toUpperCase()}</h2>
               <p><strong>Cambio:</strong>  {bike.gear}</p>
               <p><strong>Motore :</strong> {bike.engine}</p>
               <p><strong>Peso :</strong> {bike.weight} Kg</p>

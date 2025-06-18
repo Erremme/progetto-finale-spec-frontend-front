@@ -1,12 +1,26 @@
 import { Link } from "react-router-dom";
 import Carosell from "../Components/Carosell"
-import { useEffect, useState } from "react"
+import { useEffect, useState , useCallback} from "react"
+
+  
 
 export default function HomePage() {
   const [record, setRecord] = useState([]);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
   const [sort, setSort] = useState({ field: "title", order: "asc" });
+
+  function debounce (callback , delay){
+        let timer;
+        return (value) => {
+            clearTimeout(timer)
+            timer = setTimeout(() => {
+                callback(value)
+            }, delay)
+        }
+     }
+
+   const debounceSearchQuery = useCallback( debounce(setSearch, 500),[])
 
   useEffect(() => {
     fetch("http://localhost:3001/ebikes")
@@ -52,8 +66,7 @@ export default function HomePage() {
             <input
               type="text"
               placeholder="Cerca per titolo..."
-              value={search}
-              onChange={e => setSearch(e.target.value)}
+              onChange={(e) => debounceSearchQuery(e.target.value) }
             />
             <select value={category} onChange={e => setCategory(e.target.value)}>
               <option value="">Tutte le categorie</option>

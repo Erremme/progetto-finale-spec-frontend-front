@@ -444,6 +444,8 @@ height: 80vh;
 
 .compare-list-page > p{
   text-align: center;
+  font-size: 26px;
+  margin-bottom: 40px;
 }
 
 .compare-list-container{
@@ -488,6 +490,12 @@ height: 80vh;
   text-align: center;
   margin-top: 40px;
   font-size: 60px;
+}
+
+.wishlist-page p{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 40px;
 }
 
 
