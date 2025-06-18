@@ -6,12 +6,12 @@ import DefaultLayout from "./Layouts/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import CompareList from "./pages/CompareList";
 
-import { CompareProvider } from "./contexts/CompareContext";
+import { GlobalContextProvider } from "./contexts/GlobalContext";
 
 export default function App(){
   return(
 
-    <CompareProvider>
+    <GlobalContextProvider>
     <BrowserRouter>
 
         <Routes>
@@ -26,6 +26,6 @@ export default function App(){
         </Routes>
     
     </BrowserRouter>
-    </CompareProvider>
+    </GlobalContextProvider>
   )
 }

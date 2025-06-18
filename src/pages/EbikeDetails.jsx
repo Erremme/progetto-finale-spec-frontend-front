@@ -1,12 +1,12 @@
 import { Link, useParams } from "react-router-dom"
 import { useState , useEffect } from "react";
-import { useCompare } from "../contexts/CompareContext";
+import { useGlobalContext } from "../contexts/GlobalContext";
 
 export default function EbikeDetails() {
   const { id } = useParams();
   const [bikeDetails, setBikeDetails] = useState([]);
 
-  const { addToCompare, compareList } = useCompare();
+  const { addToCompare, compareList } = useGlobalContext();
 
   // Qui puoi fare una fetch per i dettagli della bici usando l'id
     useEffect(() => {

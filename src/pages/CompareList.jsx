@@ -1,8 +1,8 @@
  
- import { useCompare } from "../contexts/CompareContext";
+ import { useGlobalContext } from "../contexts/GlobalContext";
 
 export default function CompareList() {
-  const { compareList, removeFromCompare } = useCompare();
+  const { compareList, removeFromCompare } = useGlobalContext();
 
   return (
     <div  className="compare-list-page">
