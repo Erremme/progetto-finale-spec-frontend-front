@@ -6,21 +6,26 @@ export default function Header(){
             <div className="banner"></div>
             <header>
                 <div className="logo">
-                    <img src="img/BoolBike.svg" alt="logo" />
+                    <Link className="style-link" to="/">
+                       <img src="/img/BoolBike.svg" alt="logo" />
+                    </Link>
+                    
                 </div>
                 
                 <div className="header-actions">
                     <div className="wishList">
-                        <Link to="/wishlist"> 
-                             <i className="fa-solid fa-heart"></i>  
+                        <Link className="style-link" to="/wishlist"> 
+                             <i className="fa-solid fa-heart icon"></i>  
                         </Link>
                        
                     </div>
                     <div className="account">
-                         <i className="fa-solid fa-user"></i>   
+                         <i className="fa-solid fa-user icon"></i>   
                     </div>
                     <div className="cart">
-                        <i className="fa-solid fa-cart-shopping"></i> 
+                        <Link className="style-link" to="/compare">
+                        <i className="fa-solid fa-code-compare icon"></i>
+                        </Link>
                     </div>
 
 

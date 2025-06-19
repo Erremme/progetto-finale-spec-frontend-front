@@ -4,7 +4,7 @@ import { useGlobalContext } from "../contexts/GlobalContext";
 export default function Wishlist() {
     const { wishList , removeFromWishList} = useGlobalContext();
     return (
-        <div className="wishlist-page">
+        <div className="wishlist-page ">
             <h1>La tua lista dei desideri</h1>
             { wishList.length === 0 ? (
                 <p>Nessuna bici nella tua lista dei desideri.</p> )  : (

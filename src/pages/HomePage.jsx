@@ -110,7 +110,7 @@ export default function HomePage() {
             <h2>GUIDA ALL' ACQUISTO</h2>
             <p>Perché la scelta non diventi un grattacapo, ti spieghiamo i vantaggi di tutti i componenti e a che cosa dovresti prestare attenzione durante l’acquisto.</p>
     
-             <Link  to="/" className="btn-link">SCOPRI DI PIU'</Link>
+             <Link  to="/" className="btn-link ">SCOPRI DI PIU'</Link>
           
            </div>
         </div>

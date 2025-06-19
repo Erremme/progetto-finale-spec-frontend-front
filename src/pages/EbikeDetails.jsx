@@ -23,12 +23,13 @@ export default function EbikeDetails() {
   
   return (
     <div>
-        <button onClick={() => addToWishList(bikeDetails)}>Aggiungi ai preferiti</button>
+        
     <div  className="ebike-details-container">
        <div className="ebike-header">
         <h1>{bikeDetails?.title?.toUpperCase()}</h1>
         <p>{bikeDetails?.description }</p>
         <p className="price">da: {bikeDetails?.price},00 €</p>
+        <button onClick={() => addToWishList(bikeDetails)}>Aggiungi ai preferiti</button>
         </div>  
         <div className="ebike-img">
             <img src={bikeDetails.image} alt={bikeDetails.image} />
@@ -43,7 +44,7 @@ export default function EbikeDetails() {
 
             <div className="frame_variants">
                <div className="caracteristics-header">
-                <div>
+                <div className="caracteristics-header-img-container">
                     <img src="https://www.velo-de-ville.com/themes/custom/vdv2022/sources/img/icons/frame.svg" alt="forme" />
                 </div>
                 <h2>Forme del telaio</h2>
@@ -69,59 +70,78 @@ export default function EbikeDetails() {
                                 </li>
                         ))}
                     </ul>
+                    <div  className="frame-variants-content-buttons">
+                           <button onClick={() => addToCompare(bikeDetails)}> Compara la bici</button>
+                            <Link className="style-link link" to="/compare" >Vai alla pagina di comparazione  </Link>
                        </div>
+                    </div>
  
             </div>
 
             <div className="other-carcteristics">
                  <div className="gear-caracteristics ">
                         <div className="caracteristics-header ">
-                            <div>
+                            <div className="caracteristics-content-img-container">
                                 <img src="https://www.velo-de-ville.com/themes/custom/vdv2022/sources/img/icons/gear.svg" alt="cambi" />
                             </div>
-                            <h2>Cambio</h2>
+                            <div className="caracteristics-title">
+                                 <h2>Cambio</h2>
+                                 <p>{bikeDetails.gear}</p>
+                            </div>
+                            
                         </div>
-                        <p>{bikeDetails.gear}</p>
+                        
                 </div>
 
                 <div className="engine-caracteristics ">
                         <div className="caracteristics-header ">
-                            <div>
+                            <div className="caracteristics-content-img-container">
                                 <img src="https://www.velo-de-ville.com/themes/custom/vdv2022/sources/img/icons/engine.svg" alt="Motore" />
                             </div>
-                            <h2>Motore</h2>
+                            <div className="caracteristics-title">
+                                 <h2>Motore</h2>
+                                 <p>{bikeDetails.engine}</p>
+                            </div>
                         </div>
-                        <p>{bikeDetails.engine}</p>
+                       
                 </div>
 
                 <div className="weight-caracteristics ">
                         <div className="caracteristics-header ">
-                            <div>
+                            <div className="caracteristics-content-img-container">
                                 <img src="https://www.velo-de-ville.com/themes/custom/vdv2022/sources/img/icons/bike.svg" alt="cambi" />
                             </div>
-                            <h2>Peso</h2>
+                            <div className="caracteristics-title">
+                                 <h2>Peso</h2>
+                                 <p>  Kg: {bikeDetails.weight} (Attrezzatura di base)</p>
+                            </div>
+                            
                         </div>
-                        <p>Kg:{bikeDetails.weight} (Attrezzatura di base)</p>
+                        
                 </div>
 
                  <div className="weight-capacity-caracteristics ">
                         <div className="caracteristics-header ">
-                            <div>
+                            <div className="caracteristics-content-img-container">
                                 <img src="https://www.velo-de-ville.com/themes/custom/vdv2022/sources/img/icons/weight.svg" alt="cambi" />
                             </div>
-                            <h2>Capacita</h2>
+                           
+                            <div className="caracteristics-title">
+                                 <h2>Capacità</h2>
+                                 <p> Kg: {bikeDetails.weight_capacity} </p>
+                            </div>
+                            
                         </div>
-                         <p> Kg: {bikeDetails.weight_capacity} </p>
+                         
 
                 </div>
 
-                 <button onClick={() => addToCompare(bikeDetails)}> Compara la bici</button>
-                 <Link to="/compare" >Vai alla pagina di comparazione </Link>
+                
                  
 
                 
 
-                       </div>
+        </div>
     </div>
 
     </div>
