@@ -1,0 +1,459 @@
+[
+  {
+    "title": "aeb classic",
+    "category": "allround",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_aeb_classic_diamant-neu.webp?itok=1D7o1hI3",
+    "price": 2.669,
+    "description": "Scopri l'AEB CLASSIC, la e-bike che combina perfettamente stile e funzionalità. La batteria semi-integrata è particolarmente facile da rimuovere, in modo da essere sempre pronti a ripartire in modo rapido e comodo.",
+    "gear": "7 marce Shimano Nexus ruota libera",
+    "engine": "Bosch Active Line (Smart, 40 Nm)",
+    "weight_capacity": 140,
+    "weight": 24,
+    "frame_variants" : [
+     {
+      "name": "Wave Intra+" ,
+      "sizes": [45,50,55,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-trend-intra-1.png?itok=s5JbRKEs"
+     },
+
+     {
+      "name": "Trapez Intra+" ,
+       "sizes": [45,50,55] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intra-3.png?itok=_umKWZ9g"
+    },
+
+    {
+      "name": "Diamant Intra+" ,
+      "sizes": [55,60,65] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-hardtail-unisex.png?itok=lcNgJn7Q"
+    }
+
+     ]
+    ,
+    "id": 1,
+    "createdAt": "2025-06-13T08:26:13.634Z",
+    "updatedAt": "2025-06-13T08:26:13.634Z"
+  },
+  {
+    "title": "aeb pro",
+    "category": "allround",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_aeb_pro_wave_neu.webp?itok=aPiYAF9A",
+    "price": 3.489,
+    "description": "Scopri la perfezione dell'AEB PRO: l'e-bike che porta stile e funzionalità a un nuovo livello. Con il suo telaio elegante e di alta qualità e una geometria adatta all'uso quotidiano, l'AEB PRO non è solo una bici che non passa mai inosservata, ma anche una compagna affidabile per i viaggi più lunghi.",
+    "gear": "8 marce Shimano Nexus contropedale",
+    "engine": "Bosch Active Line Plus (Smart, 50 Nm)",
+    "weight_capacity": 140,
+    "weight": 28,
+    "frame_variants" : [
+     {
+      "name": "Wave" ,
+      "sizes": [45,48,53,58] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intube-1.png?itok=AV1vQ8Jy"
+     },
+
+     {
+      "name": "Trapez" ,
+       "sizes": [48 ,53 ,58,63] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+    },
+
+    {
+      "name": "Diamant" ,
+      "sizes": [48 ,53 ,58] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-herren-intube.png?itok=llsq9axk"
+    }
+     ],
+    "id": 2,
+    "createdAt": "2025-06-13T08:29:29.063Z",
+    "updatedAt": "2025-06-13T08:29:29.063Z"
+  },
+  {
+    "title": "aeb pure",
+    "category": "allround",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_aeb_pure_trapez-1.webp?itok=2Y_DX-Lx",
+    "price": 2.719,
+    "description": "Non importa cosa vuoi esplorare, i pedelec della serie AEB PURE sono perfettamente equipaggiati per farlo. Sia per l'uso quotidiano, sia per i tour in città o le gite di un giorno, queste biciclette ti offrono esattamente la flessibilità di cui hai bisogno.",
+    "gear": "8 marce Shimano Nexus ruota libera",
+    "engine": "Bosch Active Line Plus (Smart, 50 Nm)",
+    "weight_capacity": 140,
+    "weight": 25,
+    "frame_variants" : [
+     {
+      "name": "Wave Intube" ,
+      "sizes": [45,50,55,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intube-1.png?itok=AV1vQ8Jy"
+     },
+
+     {
+      "name": "Trapez Intube" ,
+       "sizes": [45,50,55] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+    },
+
+    {
+      "name": "Diamant Intube" ,
+      "sizes": [45 ,55 ,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-herren-intube.png?itok=llsq9axk"
+    }
+     ],
+    
+    "id": 3,
+    "createdAt": "2025-06-13T08:31:27.113Z",
+    "updatedAt": "2025-06-13T08:31:27.113Z"
+  },
+
+  {
+    "title": "seb pro",
+    "category": "suv",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_seb_pro_wave.webp?itok=VmP3cWbh",
+    "price": 3.539,
+    "description": "Scopri la dinamica della SEB PRO, la e-bike che combina perfettamente potenza e comfort. Con una geometria leggermente sportiva e pneumatici larghi, la SEB PRO offre un'eccellente aderenza al suolo e un maggiore comfort di guida su qualsiasi percorso. Sia che tu stia attraversando la città o che ti stia godendo tour più lunghi su percorsi non asfaltati, questa e-bike convince per la sua agilità e stabilità.",
+    "gear": "9 rapporti Shimano CUES U4000",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 29,
+    "frame_variants" : [
+     {
+      "name": "Wave" ,
+      "sizes": [45,48,53,58,63] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intube-1.png?itok=AV1vQ8Jy"
+     },
+
+     {
+      "name": "Trapez" ,
+       "sizes": [48 ,53 ,63] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+    },
+
+    {
+      "name": "Diamant" ,
+      "sizes": [48 ,53 ,58,63] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-herren-intube.png?itok=llsq9axk"
+    }
+     ],
+    "id": 4,
+    "createdAt": "2025-06-13T08:34:09.497Z",
+    "updatedAt": "2025-06-13T08:34:09.497Z"
+  },
+  {
+    "title": "seb pure",
+    "category": "suv",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_seb_pure_trapez.webp?itok=ozsYPi4B",
+    "price": 2.779,
+    "description": "La serie SEB PURE ti offre la flessibilità di cui hai bisogno durante i tuoi tour e nella vita di tutti i giorni. Grazie agli pneumatici più larghi, le biciclette offrono un livello di aderenza al suolo migliore e aumentano ulteriormente il comfort di guida se trascorri molto tempo su strade non asfaltate. ",
+    "gear": "8 marce Shimano Acera",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 24,
+    "frame_variants" : [
+     {
+      "name": "Wave Intube" ,
+      "sizes": [45,50,55,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intube-1.png?itok=AV1vQ8Jy"
+     },
+
+     {
+      "name": "Trapez Intube" ,
+       "sizes": [45,50,55] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+    },
+
+    {
+      "name": "Diamant Intube" ,
+      "sizes": [45 ,55 ,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-herren-intube.png?itok=llsq9axk"
+    }
+     ],
+    "id": 5,
+    "createdAt": "2025-06-13T08:35:55.026Z",
+    "updatedAt": "2025-06-13T08:35:55.026Z"
+  },
+  {
+    "title": "seb classic",
+    "category": "suv",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_seb_classic_diamant.webp?itok=z8KJqEnm",
+    "price": 2.719,
+    "description": "Scopri la SEB CLASSIC, la e-bike che combina perfettamente avventura e comfort. Con i suoi pneumatici più larghi e i numerosi componenti configurabili, ti offre un'eccellente aderenza al suolo e un maggiore comfort, soprattutto sui percorsi non asfaltati. Che tu stia attraversando la campagna o semplicemente viaggiando fuori dalle strade asfaltate, la SEB CLASSIC non ti deluderà. ",
+    "gear": "7 marce Shimano Nexus ruota libera",
+    "engine": "Bosch Active Line (Smart, 40 Nm)",
+    "weight_capacity": 140,
+    "weight": 23,
+     "frame_variants" : [
+     {
+      "name": "Wave Intra+" ,
+      "sizes": [45,50,55,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-trend-intra-1.png?itok=s5JbRKEs"
+     },
+
+     {
+      "name": "Trapez Intra+" ,
+       "sizes": [45,50,55] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intra-3.png?itok=_umKWZ9g"
+    },
+
+    {
+      "name": "Diamant Intra+" ,
+      "sizes": [55,60,65] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-hardtail-unisex.png?itok=lcNgJn7Q"
+    }
+
+     ]
+    ,
+    "id": 6,
+    "createdAt": "2025-06-13T08:38:06.395Z",
+    "updatedAt": "2025-06-13T08:38:06.395Z"
+  },
+  {
+    "title": "seb range",
+    "category": "suv",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_seb_range_diamant.webp?itok=_rI-gxv9",
+    "price": 4.509,
+    "description": "Un sistema di trasmissione Bosch totalmente interconnesso, abbinato a una batteria particolarmente grande, fanno della SEB 990 Range la compagna ideale per i tour più lunghi.",
+    "gear": "5 marce Shimano Nexus ruota libera",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 27,
+     "frame_variants" : [
+     {
+      "name": "Trapez Range" ,
+      "sizes": [45,50,55] ,
+      "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+     },
+
+     {
+      "name": "Diamant Range" ,
+       "sizes": [55,60] ,
+      "frame_image": "https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-herren-intube.png?itok=llsq9axk"
+    }
+
+     ]
+    ,
+    "id": 7,
+    "createdAt": "2025-06-13T08:40:47.621Z",
+    "updatedAt": "2025-06-13T08:40:47.621Z"
+  },
+  {
+    "title": "keb pro",
+    "category": "compact",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_keb_pro.webp?itok=-VjfE3Wt",
+    "price": 3.739,
+    "description": "Scopri la versatilità della KEB PRO, la e-bike compatta che non rinuncia al comfort. Con il suo design salvaspazio, la KEB PRO può essere riposta senza fatica senza dover rinunciare al comfort a cui sei abituato.",
+    "gear": "8 marce Shimano Nexus ruota libera",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 24,
+    "frame_variants" : [
+     {
+      "name": "Wave 20" ,
+      "sizes": [46] ,
+      "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/E-Compact_2024.png?itok=4g3GxSKo"
+     }
+
+     ]
+    ,
+    "id": 8,
+    "createdAt": "2025-06-13T08:45:39.052Z",
+    "updatedAt": "2025-06-13T08:45:39.052Z"
+  },
+  {
+    "title": "keb classic",
+    "category": "compact",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_keb_classic.webp?itok=wUKJ9w0L",
+    "price": 2.869,
+    "description": "Scopri la KEB CLASSIC, la e-bike compatta che offre il perfetto equilibrio tra comfort e praticità. Con il suo design sofisticato, le opzioni di configurazione e la batteria semi-integrata, che può essere facilmente rimossa, la KEB CLASSIC è ideale per l'uso quotidiano in città.",
+    "gear": "5 marce Shimano Nexus contropedale",
+    "engine": "Bosch Active Line (Smart, 40 Nm)",
+    "weight_capacity": 140,
+    "weight": 23,
+    "frame_variants" : [
+     {
+      "name": "Wave Intra+ 20" ,
+      "sizes": [46] ,
+      "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-compact.png?itok=Oy3ppy87"
+     }
+
+     ]
+    ,
+    "id": 9,
+    "createdAt": "2025-06-13T08:48:03.954Z",
+    "updatedAt": "2025-06-13T08:48:03.954Z"
+  },
+  {
+    "title": "ceb pro",
+    "category": "compact",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_ceb_pro_wave.webp?itok=VREFfwrN",
+    "price": 3.589,
+    "description": "Scopri il comfort della CEB PRO, la e-bike che renderà piacevoli le tue uscite quotidiane. Con una geometria appositamente sviluppata per una seduta eretta, la CEB PRO assicura un'esperienza di guida rilassata e confortevole.",
+    "gear": "11 rapporti Shimano CUES U8000",
+    "engine": "Bosch Performance Line SX (Smart, 55 Nm)",
+    "weight_capacity": 140,
+    "weight": 26,
+    "frame_variants":[
+        {
+            "name": "Wave",
+            "sizes" : [45 , 48 , 53 , 58 , 63],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intube-1.png?itok=AV1vQ8Jy"
+            
+        }
+    ],
+    "id": 10,
+    "createdAt": "2025-06-13T08:53:17.483Z",
+    "updatedAt": "2025-06-13T08:53:17.483Z"
+  },
+  {
+    "title": "ceb carbon",
+    "category": "confort",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_ceb_carbon_wave.webp?itok=8v33JR37",
+    "price": 3.999,
+    "description": "Scopri la CEB CARBON, l'e-bike di ultima generazione per la città. Con il suo peso ridotto e le sue potenti prestazioni, ti sposterai senza fatica nella giungla urbana. La CEB CARBON, però, non offre solo velocità: è anche perfetta per l'uso quotidiano e abbina stile e funzionalità.",
+    "gear": "8 marce Shimano Alfine ruota libera",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 19,
+    "frame_variants":[
+        {
+            "name": "Wave Carbon",
+            "sizes" : [46,63],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-wave-intra.png?itok=gHF65Y6f"
+            
+        }
+    ],
+    "id": 11,
+    "createdAt": "2025-06-13T08:56:58.248Z",
+    "updatedAt": "2025-06-13T08:56:58.248Z"
+  },
+  {
+    "title": "loady",
+    "category": "cargo",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_loady_dia_logo.webp?itok=9LfKBc7g",
+    "price": 3.999,
+    "description": "Scopri la LOADY, la cargo bike modulare long tail che si adatta perfettamente alle tue esigenze. Che tu voglia portare con te i bambini, trasportare carichi o utilizzare la bicicletta per viaggi più lunghi, la LOADY ti offre la flessibilità necessaria per gestire diversi scenari di utilizzo.",
+    "gear": "Enviolo Heavy Duty",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 200,
+    "weight": 30,
+    "frame_variants":[
+        {
+            "name": "Wave Longtail",
+            "sizes" : [46],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-cargo-loady.png?itok=O-15rEMX"
+            
+        }
+    ],
+    "id": 12,
+    "createdAt": "2025-06-13T08:59:40.039Z",
+    "updatedAt": "2025-06-13T08:59:40.039Z"
+  },
+  {
+    "title": "fr8",
+    "category": "cargo",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_fr8.webp?itok=9ut7chsE",
+    "price": 6.999,
+    "description": "Scoprite la FR8, la cargo bike di ultima generazione che si adatta perfettamente alle vostre esigenze grazie al suo design modulare. Che sia per il trasporto di bambini, come bici da carico per i commercianti, per la spesa settimanale o addirittura come sostituto dell'auto, la FR8 può fare tutto questo e molto di più..",
+    "gear": "Enviolo Heavy Duty AUTOMATiQ",
+    "engine": "Bosch Cargo Line (Smart, 85 Nm)",
+    "weight_capacity": 250,
+    "weight": 74,
+     "frame_variants":[
+        {
+            "name": "Cargo",
+            "sizes" : [47],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-cargo.png?itok=YlNiHx59"
+            
+        }
+    ],
+    "id": 13,
+    "createdAt": "2025-06-13T09:02:24.598Z",
+    "updatedAt": "2025-06-13T09:02:24.598Z"
+  },
+  {
+    "title": "feb",
+    "category": "fully tour",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_feb_diamant.webp?itok=_cbapZHz",
+    "price": 5.019,
+    "description": "La FEB 990 attenua ottimamente le irregolarità della strada. Con i pneumatici larghi, il potente motore Bosch Performance Line CX e lo Smart System totalmente interconnesso, è una delle compagne più comode per il trekking.",
+    "gear": "11 rapporti Shimano CUES U8000",
+    "engine": "Bosch Performance Line CX (Smart, 85 Nm)",
+    "weight_capacity": 140,
+    "weight": 28,
+     "frame_variants":[
+        {
+            "name": "Wave",
+            "sizes" : [43 , 48 , 53 , 58],
+            "frame_image":""
+            
+        },
+          {
+            "name": "Diamant",
+            "sizes" : [48 , 53 , 58 , 63],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/Fully-Diamant.png?itok=unt8Z28D"
+            
+        }
+    ],
+    "id": 14,
+    "createdAt": "2025-06-13T09:05:12.189Z",
+    "updatedAt": "2025-06-13T09:05:12.189Z"
+  },
+  {
+    "title": "speed 4five",
+    "category": "urban mobility",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_speed_4five_diamant.webp?itok=Sx2P6CEc",
+    "price": 7.179,
+    "description": "Con la SPEED 4FIVE potrai spostarti a una velocità fino a 45 km/h. Questa bicicletta, perfetta per andare al lavoro, è dotata di serie di un equipaggiamento di alta qualità e consente di scegliere alcuni componenti.",
+    "gear": "Pinion C1.12",
+    "engine": "Neodrives Z20 RS (45 km/h | 40 Nm))",
+    "weight_capacity": 140,
+    "weight": 29,
+    "frame_variants":[
+        {
+            "name": "Trapez",
+            "sizes" : [46 , 49],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+            
+        },
+          {
+            "name": "Diamant",
+            "sizes" : [46, 49 , 54],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/Fully-Diamant.png?itok=unt8Z28D"
+            
+        }
+    ],
+    "id": 15,
+    "createdAt": "2025-06-13T09:10:28.749Z",
+    "updatedAt": "2025-06-13T09:10:28.749Z"
+  },
+  {
+    "title": "6ty",
+    "category": "urban mobility",
+    "image": "https://www.velo-de-ville.com/sites/default/files/styles/max_1300x1300/public/pim_images/vdv_configurator_my24_cluster_image_6ty_trapez.webp?itok=dfg2QMVr",
+    "price": 3.539,
+    "description": "Con una trasmissione che a prima vista passa quasi inosservata, la 6TY si distingue in particolare per la sua eleganza. Perfetta per la città e ridotta all’essenziale, offre numerose possibilità di personalizzazione.",
+    "gear": "9 rapporti Shimano CUES U4000",
+    "engine": "Fazua Ride 60 (60 Nm)",
+    "weight_capacity": 140,
+    "weight": 21,
+    "frame_variants":[
+        {
+            "name": "Trapez",
+            "sizes" : [46 , 53],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/e-unisex-intube-bosch-1.png?itok=qcA3XiLd"
+            
+        },
+          {
+            "name": "Diamant",
+            "sizes" : [49, 53, 57],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/Fully-Diamant.png?itok=unt8Z28D"
+            
+        },
+        {
+            "name": "Wave",
+            "sizes" : [43, 48 , 53],
+            "frame_image":"https://www.velo-de-ville.com/sites/default/files/styles/max_325x325/public/pim_images/fazua_wave.png?itok=mESyaAk0"
+            
+        }
+    ],
+    "id": 16,
+    "createdAt": "2025-06-13T09:12:33.215Z",
+    "updatedAt": "2025-06-13T09:12:33.215Z"
+  }
+]
