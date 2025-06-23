@@ -2,6 +2,7 @@ import WishListCard from "../Components/WishListCard";
 import { useGlobalContext } from "../contexts/GlobalContext";
 
 export default function Wishlist() {
+    // Destrutturo wishList e removeFromWishList dal contesto globale
     const { wishList , removeFromWishList} = useGlobalContext();
     return (
         <div className="wishlist-page ">
@@ -28,10 +29,10 @@ export default function Wishlist() {
 
                    
             
-        </div>
-        )  }  
+           </div>
+        )}  
 
-                </div>        
+     </div>        
           
 
     );

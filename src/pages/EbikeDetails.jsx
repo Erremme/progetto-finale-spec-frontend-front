@@ -3,20 +3,21 @@ import { useState , useEffect } from "react";
 import { useGlobalContext } from "../contexts/GlobalContext";
 
 export default function EbikeDetails() {
+    // Ottengo l'id della bici dalla URL
   const { id } = useParams();
+  // Stato per memorizzare i dettagli della bici
   const [bikeDetails, setBikeDetails] = useState([]);
-
+   
+  //Destrutturo le funzioni addToCompare e addToWishList dal contesto globale
   const { addToCompare, addToWishList  } = useGlobalContext();
 
-  // Qui puoi fare una fetch per i dettagli della bici usando l'id
+  //faccio il fetch dei dettagli della bici in base all'id ottenuto dalla URL
     useEffect(() => {
     fetch(`http://localhost:3001/ebikes/${id}`) 
     .then(res => res.json())
     .then(data => setBikeDetails(data.ebike)) 
-
     .catch(error => console.error("Errore nel recupero dei dettagli della bici:", error));}
-
-    , [id]);
+    , []);
   
    
 

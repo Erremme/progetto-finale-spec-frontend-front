@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
 import Carosell from "../Components/Carosell"
-import { useEffect, useState , useCallback} from "react"
+import { useEffect, useState , useCallback , useMemo} from "react"
 
   
 
 export default function HomePage() {
+  // Stati per gestire i record, la ricerca, la categoria e l'ordinamento
   const [record, setRecord] = useState([]);
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
-  const [sort, setSort] = useState({ field: "title", order: "asc" });
+  const [sortBy, setSortBy] = useState("title-asc");
+  const [sortOrder, setSortOrder] = useState(1);
 
+  // Funzione di debounce per la ricerca
   function debounce (callback , delay){
         let timer;
         return (value) => {
@@ -20,8 +23,10 @@ export default function HomePage() {
         }
      }
 
+  // Utilizzo di useCallback per memorizzare la funzione di debounce
    const debounceSearchQuery = useCallback( debounce(setSearch, 500),[])
 
+   //Faccio il fetch dei dati delle ebike
   useEffect(() => {
     fetch("http://localhost:3001/ebikes")
       .then(res => res.json())
@@ -36,20 +41,43 @@ export default function HomePage() {
     }
     return acc;
   }, []);
+    
+  // Gestione dell'ordinamento
+  const handleOrder =(opt) => {
+    if(sortBy === opt) {
+        setSortOrder((prev ) => prev * -1);
+    }else {
+        setSortBy(opt);
+        setSortOrder(1);
+    }
 
-  // Filtra e ordina i record
-  const filteredRecords = record
+}
+
+  // Filtraggio e ordinamento dei record utilizzando useMemo per ottimizzare le prestazioni
+  const filteredRecords = useMemo(() => {
+  return[...record]
     .filter(bike =>
       bike.title.toLowerCase().includes(search.toLowerCase()) &&
       (category === "" || bike.category === category)
     )
     .sort((a, b) => {
-      const fieldA = a[sort.field].toLowerCase();
-      const fieldB = b[sort.field].toLowerCase();
-      if (fieldA < fieldB) return sort.order === "asc" ? -1 : 1;
-      if (fieldA > fieldB) return sort.order === "asc" ? 1 : -1;
-      return 0;
+        let result = 0
+        if(sortBy === "title-asc"){
+            result = a.title.localeCompare(b.title);
+        }
+        if(sortBy === "title-desc"){
+            result = b.title.localeCompare(a.title);
+        }
+        if(sortBy === "category-asc"){
+            result = a.category.localeCompare(b.category);
+        }
+        if(sortBy === "category-desc"){
+            result = b.category.localeCompare(a.category);
+        }
+  
+      return result * sortOrder;
     });
+}, [record, search, category, sortBy, sortOrder]);
 
   return (
     <div>
@@ -61,7 +89,7 @@ export default function HomePage() {
         </div>
 
         
-          {/* FILTRI */}
+          
           <div className="ebike-filters" >
             <input
               type="text"
@@ -70,16 +98,18 @@ export default function HomePage() {
             />
             <select value={category} onChange={e => setCategory(e.target.value)}>
               <option value="">Tutte le categorie</option>
-              {categories.map(cat => (
-                <option key={cat} value={cat}>{cat}</option>
-              ))}
+              {categories.map((cat , index )=> {
+                return( <option key={index} value={cat}>{cat}</option>)
+                 
+              }
+                
+              )}
             </select>
             <select
-              value={sort.field + "-" + sort.order}
-              onChange={e => {
-                const [field, order] = e.target.value.split("-");
-                setSort({ field, order });
-              }}
+              value={sortBy}
+              onChange={e => 
+                handleOrder(e.target.value)
+              }
             >
               <option value="title-asc">Titolo A-Z</option>
               <option value="title-desc">Titolo Z-A</option>
@@ -88,18 +118,20 @@ export default function HomePage() {
             </select>
           </div>
 
-          {/* CARD LIST */}
+         
           <div className="ebike-records">
             {filteredRecords.length === 0 && (
               <p style={{ color: "#888", textAlign: "center" }}>Nessuna bici trovata.</p>
             )}
             {filteredRecords.map(bike => (
-              <Link to={`ebikes/${bike.id}`} >
+              
               <div key={bike.id} className="ebike-card">
+                <Link to={`ebikes/${bike.id}`} >
                 <h2>{bike.title.toUpperCase()}</h2>
                 <span>{bike.category}</span>
+                </Link>
               </div>
-              </Link>
+              
             ))}
           </div>
         </div>

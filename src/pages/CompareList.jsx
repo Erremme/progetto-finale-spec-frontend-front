@@ -2,14 +2,15 @@
  import { useGlobalContext } from "../contexts/GlobalContext";
 
 export default function CompareList() {
+  // Destrutturo compareList e removeFromCompare dal contesto globale
   const { compareList, removeFromCompare } = useGlobalContext();
 
   return (
     <div  className="compare-list-page">
-     <h1>Confronta le tue bici</h1>
-      {compareList.length === 0 ? (
-        <p>Nessuna bici da confrontare.</p>
-      ): (
+        <h1>Confronta le tue bici</h1>
+        {compareList.length === 0 ? (
+          <p>Nessuna bici da confrontare.</p>
+        ): (
       <div className="compare-list-container">
       
         <ul className="compare-list">
@@ -24,7 +25,7 @@ export default function CompareList() {
               <p><strong>Prezzo :</strong> {bike.price},00€ </p>
               <p><strong>Forma del telaio :</strong></p>
               <div className="compare-sizes" >
-              {bike.frame_variants && 
+                  {bike.frame_variants && 
                      bike.frame_variants.map((variant,index) => {
                         return (
                           <div key={index}>
@@ -45,6 +46,6 @@ export default function CompareList() {
       
     </div>
     )}
-    </div>
+  </div>
   );
 }

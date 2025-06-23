@@ -1,5 +1,4 @@
 
-import { NavLink } from "react-router-dom"
 export default function WishListCard({image , category, price, title , onClick}){
   return(
     <div className="wishlist-card-container">
